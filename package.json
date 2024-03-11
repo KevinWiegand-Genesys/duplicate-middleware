@@ -1,0 +1,24 @@
+{
+    "name": "duplicate-middleware",
+    "version": "1.0.0",
+    "description": "Example of duplicate middleware error.",
+    "main": "index.js",
+    "scripts": {
+      "build": "tsc",
+      "start": "node ./.build/src/index.js"
+    },
+    "author": "kevin.wiegand",
+    "license": "UNLICENSED",
+    "dependencies": {
+      "@aws-sdk/client-dynamodb": "^3.525.0",
+      "@aws-sdk/lib-dynamodb": "^3.525.0",
+      "@aws-sdk/util-dynamodb": "^3.525.0",
+      "newrelic": "^11.12.0"
+    },
+    "devDependencies": {
+      "@types/newrelic": "^9.14.3",
+      "@types/node": "^18.19.3",
+      "typescript": "^5.3.3"
+    }
+  }
+  
